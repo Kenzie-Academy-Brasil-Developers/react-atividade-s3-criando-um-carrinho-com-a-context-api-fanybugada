@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  flex-direction: column;
+  display: flex;
+  margin: 15px;
+  border: 1px solid black;
+  padding: 20px 40px;
+  width: 200px;
+}
+
+li {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  border: groove 1px lightgray;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+}
